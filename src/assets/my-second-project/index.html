@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>我的博客</title>
+    <link href="styles/myblog.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div id="header" class="section">
+        <img src="images/avatar.png" alt="头像" class="img-circle" />
+        <p>WangK</p>
+    </div>
+
+    <div class="section">
+        <h2><span>个人介绍</span></h2>
+        <p>你好，我是<strong>WangK</strong>。</p>
+        <p class="quote">Hello World!</p>    
+    </div>
+
+    <div class="section">
+        <h2><span>我的日程</span></h2>
+        <table>
+            <tr>
+                <th>Day</th>
+                <th>Mon</th>
+                <th>Tue</th>
+                <th>Wed</th>
+                <th>Thu</th>
+                <th>Fri</th>
+            </tr>
+            <tr>
+                <td>7:00</td>
+                <td colspan="5">起床</td>
+            </tr>
+            <tr>
+                <td>8:00-9:00</td>
+                <td class="selected" colspan="5">英语</td>
+            </tr>
+            <tr>
+                <td>9:00-12:00</td>
+                <td class="selected" colspan="5">数学</td>
+            </tr>
+            <tr>
+                <td>12:00-14:00</td>
+                <td colspan="5">午休</td>
+            </tr>
+            <tr>
+                <td>14:00-17:00</td>
+                <td class="selected" colspan="5">408</td>
+            </tr>
+            <tr>
+                <td>17:00-19:00</td>
+                <td colspan="5">晚饭</td>
+            </tr>
+            <tr>
+                <td>19:00-22:00</td>
+                <td class="selected" colspan="5">前端</td>
+            </tr>
+            <tr>
+                <td>22:00-23:00</td>
+                <td class="selected" colspan="5">娱乐</td>
+            </tr>
+            <tr>
+                <td>23:00</td>
+                <td colspan="5">睡觉</td>
+            </tr>
+        </table>  
+    </div>
+
+    <div class="section">
+        <h2><span>我的技能</span></h2>
+        <u1>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </u1>
+    </div>
+
+    <div class="section">
+        <h2><span>我的创作</span></h2>
+        <iframe height="240px" width="320px" src="demosource/movie.mp4"></iframe>
+    </div>
+
+    <div class="section">
+        <h2><span>联系我</span></h2>
+        <form>
+            <input name="name" placeholder="name" type="text" required /><br/>
+            <input name="email" placeholder="email" type="email" required /><br/>
+            <textarea name="message" placeholder="message" required></textarea>
+            <input type="submit" value="submit" class="submit" />
+        </form>
+    </div>
+
+    <div class="section" id="follow">
+        <h2><span>关注我</span></h2>
+        <div>
+            <a href="#">
+                <img alt="qq" src="images/qq.png" />
+            </a>
+            <a href="#">
+                <img alt="weixin" src="images/weixin.png"/>
+            </a>
+            <a href="#">
+                <img alt="weibo" src="images/weibo.png" />
+            </a>
+        </div>
+    </div>
+
+    <div class="copyright">
+        &copy; 2021 WangK Blog. All rights reserved.
+    </div>
+</body>
+</html>

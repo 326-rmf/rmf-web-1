@@ -1,0 +1,412 @@
+*{
+			margin: 0;
+			padding: 0;
+		}
+		#div_1{
+			width: 100%;
+			height: 40px;
+			background-color: black;
+			margin-top: 5px;
+		}
+		#ul_1 .T_1{
+			float: left;
+			color: white;
+			margin-left: 8px;
+			margin-right: 8px;
+			list-style: none;
+			margin-top: 10px;
+			font-size: 12px;
+			text-decoration: none;
+			transition: all 1s;
+		}
+		#ul_1 .T_1:hover{
+			color: red;
+			
+		}
+		#ul_1 span{
+			color: gray;
+			margin-top: 8px;
+			float: left;
+		}
+		
+		#a_1{
+			float: left;
+			color: white;
+			margin-left: 20px;
+			margin-right: 8px;
+			list-style: none;
+			margin-top: 10px;
+			font-size: 12px;
+			text-decoration: none;
+			transition: all 1s;
+		}
+		#a_1:hover{
+			color: #FF0000;
+		}
+		#ul_2{
+			width: 300px;
+			height:40px ;
+			float: left;
+			margin-left: 150px;
+			/* background-color: pink; */
+		}
+		#ul_2 a{
+			float: left;
+			width: auto;
+			height: auto;
+			font-size: 12px;
+			color: white;
+			margin-left: 5px;
+			margin-right: 5px;
+			text-decoration: none;
+			margin-top: 10px;
+			transition:all 1s;
+		}
+		#ul_2 a:hover{
+			color: red;
+		}
+		#ul_2 span{
+			float: left;
+			color: gray;
+		margin-top: 8px;
+		}
+		#select_1{
+			margin-left: 10px;
+			margin-top: 10px;
+		}
+		#div_2{
+			width: 50px;
+			height: 50px;
+			/* background-color: orange; */
+			float: left;
+			margin-top: 10px;
+			margin-left: 100px;
+		}
+		nav{
+/* 			width: 950px;
+ */			/* margin: 0 auto; */
+			text-align: center;
+			float: right;
+			margin-right: 125px;
+			margin-top: -39px;
+			color: white;
+			
+		}
+		nav li{
+			/* display: inline-block; */
+			float: right;
+			color: white;
+			width: 95px;
+			list-style: none;
+			
+		}
+		nav li a{
+			display: inline-block;
+			width: 90px;
+			height: 35px;
+			color: #fff;
+			font-size: 12px;
+			line-height: 35px;
+			transition: all 1s;/*按钮延迟透明效果*/
+			text-decoration: none;
+		}
+		
+		/*下拉菜单*/
+		nav li div{
+			display: none;
+			width: 90px;
+			background-color: #000;
+			border: 1px solid #ccc;
+			position: absolute;
+			left: 0;
+			top: 35px;
+			z-index: 100;
+			text-align: center;
+			
+		}
+		nav li div a{
+			display: block;
+			width: 90px;
+		    height: 28px;
+			line-height: 28px;
+			font-weight: bold;
+			font-size: 14px;
+			font-family: "微软雅黑";
+			color: #fff;
+			float: left;
+			border-bottom: 1px dashed   #ccc;
+		}
+		nav ul li{
+			width: 90px;
+			float: left;
+			position: relative;
+		}
+		nav  li:hover div{
+			display: block;
+		}
+		nav ul li a:hover{
+			background:#FF0000;
+			color: #FFFFFF;
+		}
+		#div_3{
+			width: 100%;
+			height: 50px;
+			float: left;
+			/* margin-left: 180px; */
+			margin-top: 30px;
+/* 			background-color: pink;
+ */		}
+		 #div_4 a{
+			
+				/* display: inline-block; */
+				width: 110px;
+				height: 200px;
+				color: #000;
+				font-size: 12px;
+				line-height: 35px;
+				transition: all 1s;/*按钮延迟透明效果*/
+				text-decoration: none;
+				/* display: block; */
+				transition: all 1s;
+				float: left;
+				margin-left: 80px;
+				
+		}
+		#a_5{display: inline-block;
+				width: 90px;
+				height: 35px;
+				color: #000;
+				font-size: 18px;
+				float: left;
+				margin-left: 100px;
+				margin-top: 30px;
+				line-height: 35px;
+				transition: all 1s;/*按钮延迟透明效果*/
+				text-decoration: none
+			
+		}
+		#a_5:hover {
+			color:orange;
+		}
+		
+		#div_4{
+			display: none;
+			width: 100%;
+			float: left;
+/* 			background-color: #000;
+ */			border: 1px solid #ccc;
+			/* position: absolute; */
+			/* left: 0;
+			top: 35px; */
+			z-index: 100;
+			text-align: center;
+			/* background-color: pink; */
+			margin-top: 62px;
+			margin-left: 0px;
+			position: absolute;
+		}
+		 #li_1:hover #div_4
+		{
+			display: block;
+			z-index: 100;
+			background-color: #fff;
+			
+		}
+		
+		#div_4 a:hover{
+			color: red;
+		} 
+		#ul_3{
+			list-style: none;
+		}
+		#div_5 a{
+					
+						/* display: inline-block; */
+						width: 110px;
+						height: 200px;
+						color: #000;
+						font-size: 12px;
+						line-height: 35px;
+						transition: all 1s;/*按钮延迟透明效果*/
+						text-decoration: none;
+						/* display: block; */
+						transition: all 1s;
+						float: left;
+						margin-left: 180px;
+						
+				}
+				#a_6{display: inline-block;
+						width: 120px;
+						height: 35px;
+						color: #000;
+						font-size: 18px;
+						float: left;
+						margin-left: 100px;
+						margin-top: 30px;
+						line-height: 35px;
+						transition: all 1s;/*按钮延迟透明效果*/
+						text-decoration: none
+					
+				}
+				#a_6:hover {
+					color:orange;
+				}
+				
+				#div_5{
+					display: none;
+					width: 100%;
+					float: left;
+		/* 			background-color: #000;
+		 */			border: 1px solid #ccc;
+					/* position: absolute; */
+					/* left: 0;
+					top: 35px; */
+					z-index: 100;
+					text-align: center;
+					/* background-color: pink; */
+					margin-top: 62px;
+					margin-left: 0px;
+					position: absolute;
+				}
+				 #li_2:hover #div_5
+				{
+					display: block;
+					background-color: #fff;
+					
+				}
+				
+				#div_5 a:hover{
+					color: red;
+				}
+		/* #ul_4{
+			list-style: none;
+		} */
+		
+		#img_xiaomi10s
+		{
+			float: left;
+			margin-left: -65px;
+			margin-top:40px;
+			position:absolute;
+		}
+		#img_xiaomi11{
+			float: left;
+			margin-left: -65px;
+			margin-top:40px;
+			position:absolute;
+		}
+		#img_xiaomizhizun{
+			float: left;
+			margin-left: -80px;
+			margin-top:40px;
+			position:absolute;
+		}
+		#mi10{
+			float: left;
+			margin-left: -60px;
+			margin-top:40px;
+			position:absolute;
+		}
+		#mi10qingchun{
+			float: left;
+			margin-left: -75px;
+			margin-top:40px;
+			position:absolute;
+		}
+		#miMix{
+			float: left;
+			margin-left: -70px;
+			margin-top:40px;
+			position:absolute;
+			
+		}
+		#div_6{
+			position: relative;
+			width: 1100px;
+			margin-left: 100px;
+			/* background-color: pink; */
+			height:auto;
+			margin-top: 125px;
+			border: 1px solid gray;
+		}
+		#ul_4{
+			position: absolute;
+			list-style: none;
+			background-color:gray;
+			width: 250px;
+			
+		}
+		#ul_4  .li_9{
+   /* position: r; */
+/* 			float: left;
+
+ */			/* display: block; */
+height: 25px;
+/* width:100%; */
+/* background-color: yellow;
+ *//*s */
+ /* position: fixed; */
+			/* margin-top: 40px; */
+			padding-top: 30px;
+			/* margin-left:30px; */
+			text-align: center;
+			transition: all 1s;
+		/* 	float: left;
+			display: in; */
+		}
+		 .li_9_fu{
+			text-decoration: none;
+			/* float: left; */
+			/* display: inline-block;
+			text-align: center; */
+			/* width: 200px;
+			height: 200px; */
+			
+			color: #fff;
+			
+		}
+		.li_9:hover{
+			background-color: orange;
+			
+		}
+		#div_search{
+			float: right;
+			position: relative;
+			margin-top:10px;
+			margin-right: 20px;
+		}
+		#search_1{
+			width: 200px;
+			height: 50px;
+		}
+		#button_1{
+			width: 70px;
+			height: 55px;
+		}
+		#li_9_div{
+			float: left;
+			display: none;
+			width: 850px;
+			height: 387px;
+			background-color: pink;
+			margin-top: -52px;
+			margin-left: 220px;
+		}
+		.li_9:hover #li_9_div{
+			display: block;
+		}
+		.li_9_a{
+			/* display: block; */
+			float: left;
+			margin-top: 20px;
+			margin-left: 20px;
+		}
+		.clearfix:after{
+			content: "";
+			display: table;
+			clear: both;
+		}
+		.li_9 span{
+			float: right;
+			right: 0;
+		}

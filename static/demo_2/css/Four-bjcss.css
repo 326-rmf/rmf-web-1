@@ -1,0 +1,263 @@
+*{
+	padding: 0px;
+		margin: 0 auto;
+}
+body{
+	background: url(../img/polo3603.jpg) repeat-x;
+	
+}
+.w{/*用来指定宽度居中*/
+	width: 1024px;
+	margin: 0 auto;
+	
+}
+.header{
+	/* background-color: #bfa; */
+	padding-top: 24px;
+	padding-bottom: 30px;
+}
+.logo{
+	margin-left:10px;
+}
+.nav{
+	float: right;
+    margin-top: 5px;
+}
+.nav li{
+	float: left;
+	padding: 0 10px;
+	border-left: 1px #d6d6d6 dotted;
+	/* display: none; */
+}
+.nav a{
+	font: 12px georgia bold;
+	color: #666;
+	text-decoration: none;
+}
+.nav a:hover{
+	color: red;
+	text-decoration: underline;
+}
+.nav p{
+	font: 11px tahoma;
+	color: #b7b7b7;
+}
+	
+.banner{
+	height: 385px;
+	background:url(../img/polo3606.jpg) no-repeat bottom center;
+	position: relative;
+}
+.pointerDiv a{
+	width: 15px;
+	height: 15px;
+	float: left;
+	background: url(../img/polo3607.jpg) no-repeat ;
+	margin-left: 4px;
+}
+.pointerDiv .active,
+.pointerDiv a:hover{
+	background: url(../img/polo3608.jpg) no-repeat;
+}
+.pointerDiv{
+	position: absolute;
+	top: 351px;
+	left: 15px;
+}
+.content h1{
+	text-align: center;
+	font:24px bold;
+	padding: 13px 0 13px 0;
+	background: url(../img/polo3609.jpg) no-repeat bottom center;
+	margin-bottom:24px ;
+}
+.content .p1,.content .cs,.content .uc,
+.contact .sc,.contact .co,.contact .nu{
+	width: 280px;
+	float: left;
+	margin-left: 20px;
+}
+.content .cs,.contact .co{
+	margin: 0 20px;
+}
+.clearfix:before,
+.clearfix:after{
+	content: "";
+	display: table;
+	clear: both;
+	
+}/*高度塌陷 浮动脱离文档流*/
+.content h2{
+	color: #11719e;
+	font:21px georgia;
+}
+.content .p2{
+	color: #8c8c8c;
+	font: 12px helvetica;
+}
+.content .imgDiv{
+	width: 250px;
+	height: 250px;
+	background: url(../img/polo3610.jpg) no-repeat;
+	margin: 17px 17px 17px 0;
+}
+.content .imgDiv1{
+	width: 250px;
+	height: 250px;
+	background: url(../img/polo3611.png) no-repeat;
+	margin: 17px 17px 17px 0;
+}
+.content .imgDiv2{
+	width: 250px;
+	height: 250px;
+	background:url(../img/3612.jpg) no-repeat;
+	margin: 17px 17px 17px 0;
+}
+.content .lm{
+text-decoration: none;
+color: #016999;
+font: 20px helvetica;
+padding-bottom: 35px;
+}
+.content .cs{
+text-decoration: none;
+color: #016999;
+font: 20px helvetica;
+padding-bottom: 35px;
+}
+.content .uc{
+text-decoration: none;
+color: #016999;
+font: 20px helvetica;
+padding-bottom: 35px;
+}
+.contact .sc,.contact .co,.contact .nu{
+	height: 260px;
+	
+}
+.contact .txt{
+	width: 250px;
+	height: 33px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	margin-top: 10px;
+	}
+.contact .tarea{
+	width: 250px;
+	height: 150px;
+
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.contact .btn{
+	width: 100px;
+	height: 20px;
+	color: deepskyblue;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-bottom: 0px;
+	cursor: pointer;/*设置指针的样式*/
+	
+}
+.contact h2{
+	border-bottom: 1px dashed   #D6D6D6;
+	margin-top: 30px;
+	margin-left: 5px;
+}
+.contact{
+	background: url(../img/polo3606.jpg) no-repeat top center;
+} 
+.sc .p2{
+	color: #444;
+	font: 12px helvetica;
+	margin-top: 10px;
+}
+.icon{
+	margin-top: 20px;
+	/* background-color: red; */
+}
+
+.lo1{
+	width: 50px;
+	height: 50px;
+}
+.lo2{
+	width: 50px;
+	height: 50px;
+}
+.lo3{
+	width: 50px;
+	height: 50px;
+}
+.lo4{
+	width: 50px;
+	height: 50px;
+}
+.lo5{
+	width: 50px;
+	height: 50px;
+}
+#p22{
+	margin-bottom: 10px;
+}
+#t1{
+	margin-top: 20px;
+	margin-left: 0px;
+}
+#btn1{
+	margin-top: 0px;
+	margin-left: 0px;
+}
+#lo6{
+	width: 60px;
+	height: 60px;
+}
+#lo7{
+	width: 60px;
+	height: 60px;
+}
+#lo8{
+	width: 60px;
+	height: 60px;
+}
+.nu img{
+	float: left;
+}
+.nu p{
+	font: 12px ;
+	height: 90px;
+	border-bottom: 1px dashed #d3d3d3;
+}
+#lo6{
+	margin-top: 10px;
+}
+#lo7{
+	margin-top: 10px;
+}
+#lo8{
+	margin-top: 10px;
+}
+.footer{
+	margin-top: 0px;
+	height: 117px;
+	background: #333;
+	border-top: 10px solid #4c4c4c;
+}
+.footer a,p{
+	color: #999;
+	font: 13px helvetica;
+	text-decoration: none;
+}
+.footer .copy{
+	float: right;
+}
+.footer .w{
+	padding-top: 18px;
+	
+}
+.footer p{
+	margin-bottom: 10px;
+}
+.footer a:hover{
+	color: red;
+}
